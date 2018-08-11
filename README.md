@@ -246,21 +246,6 @@ h2 { font-size: 22px!important;}
 .fixed .content-wrapper,
 .fixed .right-side{padding-top:50px}
 
-@media (max-width:767px){.fixed .content-wrapper,
-                         .fixed .right-side{padding-top:100px}}
-
-.fixed.layout-boxed .wrapper{max-width:100%}.fixed .wrapper{overflow:hidden}
-.hold-transition .content-wrapper,
-.hold-transition .right-side,
-.hold-transition .main-footer,
-.hold-transition .main-sidebar,
-.hold-transition .left-side,
-.hold-transition .main-header .navbar,
-.hold-transition .main-header .logo,
-.hold-transition .menu-open .fa-angle-left{-webkit-transition:none;-o-transition:none;transition:none}
-.content{min-height:250px;padding:15px;margin-right:auto;margin-left:auto;padding-left:15px;
-         padding-right:15px}
-
 
 .page-header{margin:10px 0 20px 0;font-size:22px}
 .page-header>small{color:#666;display:block;margin-top:5px}
