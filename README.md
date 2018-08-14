@@ -16,7 +16,7 @@ h2 { font-size: 26px!important;}
           transition:transform .3s ease-in-out,margin .3s ease-in-out; margin-left:230px;z-index:820; }
 
 .ancho_div_cambio { width: 120px;}
-
+.subir_buscar { margin-top: 0px;}
 
 
 
@@ -43,7 +43,7 @@ h2 { font-size: 26px!important;}
 .ocultar_movil { display:none!important;}
 .ver_movil { display:inline-block!important;}
 
-h2 { font-size: 22px!important;}
+h2 { font-size: 40px!important;}
 .subir_salir { margin-top: 15px!important;}
 .ocultar_en_tablet2 { visibility: hidden; display: none;}
 
@@ -60,6 +60,7 @@ h2 { font-size: 22px!important;}
 
 .menu_dashboard, .menu_crm, .menu_pedido, .menu_sucursales, .menu_reportes, .menu_finanzas, .menu_rrhh, .menu_sms { background-position: 7px 18px!important;}
 
+.subir_buscar { margin-top: 20px!important;}
 .ancho_div_cambio { width: 220px;}
 .subir_salir { margin-top: -50px!important;}
 
@@ -70,7 +71,7 @@ h2 { font-size: 22px!important;}
 .sidebar-mini.sidebar-collapse .main-sidebar { -webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
     -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out; -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
     transition: transform .3s ease-in-out,margin .3s ease-in-out; width: 400px !important; z-index: 850;
-    box-shadow: 1200px 800px 0px 800px rgba(0,0,0,0.5)!important;}
+    box-shadow: 2400px 2000px 0px 2000px rgba(0,0,0,0.5)!important;}
 
 .content-wrapper, .main-footer { -webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
     -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out; -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
@@ -245,6 +246,21 @@ h2 { font-size: 22px!important;}
 .fixed .main-header{top:0;right:0;left:0}
 .fixed .content-wrapper,
 .fixed .right-side{padding-top:50px}
+
+@media (max-width:767px){.fixed .content-wrapper,
+                         .fixed .right-side{padding-top:100px}}
+
+.fixed.layout-boxed .wrapper{max-width:100%}.fixed .wrapper{overflow:hidden}
+.hold-transition .content-wrapper,
+.hold-transition .right-side,
+.hold-transition .main-footer,
+.hold-transition .main-sidebar,
+.hold-transition .left-side,
+.hold-transition .main-header .navbar,
+.hold-transition .main-header .logo,
+.hold-transition .menu-open .fa-angle-left{-webkit-transition:none;-o-transition:none;transition:none}
+.content{min-height:250px;padding:15px;margin-right:auto;margin-left:auto;padding-left:15px;
+         padding-right:15px}
 
 
 .page-header{margin:10px 0 20px 0;font-size:22px}
