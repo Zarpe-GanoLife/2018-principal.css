@@ -1,6 +1,4 @@
 
-
-
 .tachado { text-decoration: line-through; }
 hr { margin: 12px 0; border: 0; border-top: 1px solid #e2e2e2; border-bottom: 0px solid #fff;}
 
@@ -219,9 +217,6 @@ h2 { font-size: 40px!important;}
 
 
 
-
-
-
     
 @media (max-width:767px){.content-wrapper,.main-footer{margin-left:0}}
 @media (min-width:768px){
@@ -339,18 +334,13 @@ h2 { font-size: 40px!important;}
 
 @media (max-width:991px){
 .navbar-collapse.pull-left{float:none !important}
-.navbar-collapse.pull-left+.navbar-custom-menu{display:block;position:absolute;top:0;right:40px}}
-
+.navbar-collapse.pull-left+.navbar-custom-menu{display:block;position:absolute;top:0;right:40px}
+}
 
 
 .main-sidebar{position:absolute;top:55px;left:0;padding-top:15px;min-height:100%;width:230px;z-index:810;
-              -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
-              -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
-              -o-transition:-o-transform .3s ease-in-out,width .3s ease-in-out;
-              transition:transform .3s ease-in-out,width .3s ease-in-out}
-
-
-
+    -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out; -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition:-o-transform .3s ease-in-out,width .3s ease-in-out; transition:transform .3s ease-in-out,width .3s ease-in-out}
 
 
 .sidebar{padding-bottom:10px}
@@ -369,8 +359,6 @@ h2 { font-size: 40px!important;}
 
 .sidebar-mini.sidebar-collapse .sidebar-menu>li { padding-left: 15px;}
 .sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span { height: 20px;}
-
-
 
 
 
@@ -517,8 +505,6 @@ h2 { font-size: 40px!important;}
     -webkit-transition-timing-function:ease-in;opacity:0}40%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, -20deg);
     -webkit-transition-timing-function:ease-in}60%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, 10deg);
     opacity:1}80%{-webkit-transform:perspective(400px) rotate3d(1, 0, 0, -5deg)}100%{-webkit-transform:perspective(400px)}}
-
-
 
 
 
