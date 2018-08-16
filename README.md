@@ -41,7 +41,7 @@ h2 { font-size: 26px!important;}
 .ocultar_movil { display:none!important;}
 .ver_movil { display:inline-block!important;}
 
-h2 { font-size: 40px!important;}
+h2 { font-size: 26px!important;}
 .subir_salir { margin-top: 15px!important;}
 .ocultar_en_tablet2 { visibility: hidden; display: none;}
 
@@ -52,6 +52,7 @@ h2 { font-size: 40px!important;}
 .ocultar_movil { display:none!important;}
 .ver_movil { display:inline-block!important;}
 
+h2 { font-size: 34px!important;}
 .icono_menu { width: 35px;}
 .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer {
     margin-left: 400px !important;}
