@@ -234,7 +234,7 @@ h2 { font-size: 34px!important;}
 .content-wrapper, .main-footer{padding-right:0px;}
 }
 
-.content-wrapper{min-height:100%;background-color:#ffffff;z-index:800;}
+.content-wrapper{min-height:100%;background-color:#ffffff;z-index:800; padding-top: 25px;}
 .main-footer{background:#fff; padding-right:60px; color:#444;border-top:0px solid #d2d6de}
 .fixed .main-header,
 .fixed .main-sidebar,
